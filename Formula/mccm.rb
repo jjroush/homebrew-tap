@@ -1,15 +1,15 @@
 class Mccm < Formula
   desc "TUI dashboard for monitoring Claude Code sessions"
   homepage "https://github.com/jjroush/mccm"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   if Hardware::CPU.arm?
-    url "https://github.com/jjroush/mccm/releases/download/v0.4.0/mccm-v0.4.0-aarch64-apple-darwin.tar.gz"
-    sha256 "0ee689324697bd3edb964fde422efe9d3c7f9ba27db3642eb4312ee52833ea6e"
+    url "https://github.com/jjroush/mccm/releases/download/v0.4.1/mccm-v0.4.1-aarch64-apple-darwin.tar.gz"
+    sha256 "8fc64407fde7fb5007c097a99e08f219af31ac604c422696abb9dc2d7392a941"
   else
-    url "https://github.com/jjroush/mccm/releases/download/v0.4.0/mccm-v0.4.0-x86_64-apple-darwin.tar.gz"
-    sha256 "8086495d1a094f258a0f3fdbee9232e60f790cd9ceef49d93bee2f230b80fd0f"
+    url "https://github.com/jjroush/mccm/releases/download/v0.4.1/mccm-v0.4.1-x86_64-apple-darwin.tar.gz"
+    sha256 "e2a92ba96388ec9748da6d36f38501fc6962d355cb101355041d989f136bfb50"
   end
 
   def install
